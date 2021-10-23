@@ -11,11 +11,11 @@ El encabezado de la página lo hemos dejado fijado para que aparezca siempre.
 ### Cómo iniciar este proyecto:
 - Si trabajas localmente, escribe el siguiente comando en tu terminal:
 
-`git clone  git clone https://github.com/ismabk/Instagram-Photo-Feed
+`git clone  git clone https://github.com/ismabk/Instagram-Photo-Feed`
 
 - Si usas Gitpod puedes clonar el boilerplate ejecuntando el siguiente comando en tu terminal:
 
-`git clone  git clone https://github.com/ismabk/Instagram-Photo-Feed
+`git clone  git clone https://github.com/ismabk/Instagram-Photo-Feed`
 
 ### Contacto:
 Para contactar conmigo lo puedes hacer a traves de mi correo elecetrónico:
