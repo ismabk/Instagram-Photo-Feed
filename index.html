@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="https://kit.fontawesome.com/3aeee9bc10.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>The Instagram Photo Feed</title>
+    </head>
+    <body>
+        <div class="sticky-top" role="navigation">
+            <!--Encabezado instagram-->
+            <nav class="p-0 navbar navbar-light bg-light d-xs-flex flex-nowrap">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/instagram_logo_icon_170643.png" alt="Instagram">
+                    </a>
+                    <div class="d-flex d-sm-flex">
+                        <!-- Boton Modal -->
+                        <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">New Post</button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog"  role="document">
+                                    <div class="modal-content">
+                                        <div class="m-3 p-1 py-5 modal-header border border-secondary rounded">
+                                            <h5 class="modal-title" id="exampleModalLabel border border-secondary"></h5>
+                                        </div>
+                                        <div class="mt-0 pt-0 modal-body">
+                                            <i class="p-1 fas fa-camera border border-secondary rounded"></i>
+                                            <i class="p-1 fas fa-map-marker-alt border border-secondary rounded"></i>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light border border-secondary" data-bs-dismiss="modal">Cancel</button>
+                                            <button type="button" class="btn btn-success">Publish</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- Boton con lista dropdown -->
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                                <i class="px-1 fas fa-cog"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-lg-end">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="pb-2 dropdown-item" type="button">Something else here</button></li>
+                            <li><button class="pt-1 dropdown-item border-top" type="button">Log out</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Pills para mostrar un contenido u otro -->
+            <ul class="nav nav-pills nav-fill bg-light" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="px-4 py-0 nav-link lot-square" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><div class="p-1 px-2 sombra"><i class="fas fa-th"></i></div></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="px-4 py-0 nav-link square" href="#" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><div class="p-1  px-2 sombra"><i class="fas fa-square"></i></div></button>
+                </li>
+            </ul>
+        </div>
+        <!-- Contenedor del body -->
+        <div class="tab-content" id="pills-tabContent">
+            <!-- Instagram greed -->
+            <div class="container caja-padre tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                    <div class="col-sm align-self-center caja"><img class="img-fluid" src="https://dondiario.com/images/2021/02/13/1613236573.jpg" alt="foto perrete"></div>
+                    <div class="col-sm align-self-center caja"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldSWsN9yUi9-bfG8tdMGhOia2EnYK5OCjEA&usqp=CAU" alt="foto perrete"></div>
+                    <div class="col-sm align-self-center caja"><img src="https://imagenes.elpais.com/resizer/KuLY0QCUOIgKJ0pr6wpbF9ZpdSk=/414x0/filters:focal(516x71:526x81)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FOHGJMBG5RFC5KYUVPARA3ETK4.jpg" alt="foto betis"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm align-self-center caja"><img src="https://fondosmil.com/fondo/35731.jpg" alt="foto comida"></div>
+                    <div class="col-sm align-self-center caja"><img src="https://i.pinimg.com/originals/53/22/f0/5322f07f8c6c1dfefc52b6e3b006bed7.jpg" alt=""></div>
+                    <div class="col-sm align-self-center caja"><img src="https://i.pinimg.com/originals/53/22/f0/5322f07f8c6c1dfefc52b6e3b006bed7.jpg" alt=""></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm align-self-center caja"><img src="https://www.wallpapertip.com/wmimgs/92-922299_supreme-gang.jpg" alt=""></div>
+                    <div class="col-sm align-self-center caja"><img src="https://www.wallpapertip.com/wmimgs/92-922299_supreme-gang.jpg" alt=""></div>
+                    <div class="col-sm align-self-center caja"><img src="https://www.wallpapertip.com/wmimgs/92-922299_supreme-gang.jpg" alt=""></div>
+                </div>
+            </div>
+            <!-- Instagram Post -->
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div>
+                    <section class="flex-container">
+                        <div class="caja-post">
+                            <div class="flex-encabezado">
+                                <h2>My first photo</h2>
+                                <span>12/17</span>
+                            </div>
+                            <div class="foto">
+                                <img src="https://dondiario.com/images/2021/02/13/1613236573.jpg" alt="foto perrete">
+                            </div>
+                            <div class="pie-foto">
+                                <p><i class="mx-2 fas fa-heart corazon"></i>23 Likes</p>
+                                <p>This is my first photo of the feed. This is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong></p>
+                                <p class="cor-gris"><i class="mx-2 far fa-heart"></i>Comment...</p>
+                            </div>
+                        </div>
+                        <div class="caja-post">
+                            <div class="flex-encabezado">
+                                <h2>Some cute things</h2>
+                                <span>13/17</span>
+                            </div>
+                            <div class="foto">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQldSWsN9yUi9-bfG8tdMGhOia2EnYK5OCjEA&usqp=CAU" alt="foto perrete">
+                            </div>
+                            <div class="pie-foto">
+                                <p><i class="mx-2 fas fa-heart corazon"></i>23 Likes</p>
+                                <p>This is my first photo of the feed. This is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong></p>
+                                <p class="cor-gris"><i class="mx-2 far fa-heart"></i>Comment...</p>
+                            </div>
+                        </div>
+                        <div class="caja-post">
+                            <div class="flex-encabezado">
+                                <h2>Football always</h2>
+                                <span>14/17</span>
+                            </div>
+                            <div class="foto">
+                                <img src="https://imagenes.elpais.com/resizer/KuLY0QCUOIgKJ0pr6wpbF9ZpdSk=/414x0/filters:focal(516x71:526x81)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/FOHGJMBG5RFC5KYUVPARA3ETK4.jpg" alt="foto betis">
+                            </div>
+                            <div class="pie-foto">
+                                <p><i class="mx-2 fas fa-heart corazon"></i>23 Likes</p>
+                                <p>This is my first photo of the feed. This is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong></p>
+                                <p class="cor-gris"><i class="mx-2 far fa-heart"></i>Comment...</p>
+                            </div>
+                        </div>
+                        <div class="caja-post">
+                            <div class="flex-encabezado">
+                                <h2>And of course.. Food!</h2>
+                                <span>15/17</span>
+                            </div>
+                            <div class="foto">
+                                <img src="https://fondosmil.com/fondo/35731.jpg" alt="foto comida">
+                            </div>
+                            <div class="pie-foto">
+                                <p><i class="mx-2 fas fa-heart corazon"></i>23 Likes</p>
+                                <p>This is my first photo of the feed. This is a multi line comment for testing purposes. I am learning to code with <strong>#BreatheCode</strong></p>
+                                <p class="cor-gris"><i class="mx-2 far fa-heart"></i>Comment...</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
