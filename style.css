@@ -68,56 +68,16 @@ ul li a i{
 }
 
 /* POST */
-h2 {
-    margin: 0;
-}
-
-.flex-container {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    
-}
-
-.caja-post {
-    font-family: 'Oxygen', sans-serif;
-    width: 500px;
-    text-align: center;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: white;
-    border-radius: 5px;
-
-}
-
-.flex-encabezado {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    padding: 10px;
-}
-
-.flex-encabezado span {
-    display: flex;
-    align-items: center;
+.card {
+    width: 450px;
     justify-content: center;
-    color: gray;
-}
-
-.foto img {
-    width: 100%;
-}
-
-.pie-foto p {
-    text-align: left;
-    margin: 0;
-    padding: 5px;
 }
 .corazon{
     color: red;
+    padding-right: 5px;
+    
 }
 .cor-gris{
     color: rgb(177, 177, 177);
+    padding-right: 5px;
 }
